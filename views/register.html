@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>register</title>
+</head>
+
+<body>
+    <main>
+        <div class="datos">
+
+            <form action="/views/register.html" method="get">
+                <h3>Datos</h3>
+                <p>
+                    <input type="text" name="Usuario" placeholder="Nombre y apellido">
+                </p>
+                <p>
+                    <input type="text" name="Nombre" placeholder="Nombre Usuari@">
+                </p>
+                <p>
+                    <input type="email" name="Email" placeholder="Correo Electronico">
+                </p>
+                <p>
+                    <input type="text" name="Domicilio" placeholder="Domicilio">
+                </p>
+                <h3>Fecha de Nacimiento</h3>
+                <input type="date" name="Fecha">
+                <h3>Perfil de Usuario</h3>
+                <label>
+                    <input type="radio" name="Perfil de Usuario">
+                    Comprador
+                </label>
+                <label>
+                    <input type="radio" name="Perfil de Usuario">
+                    Vendedor
+                </label>
+        </div>
+        <div class="categorias">
+            <h3>Categorias de Interés</h3>
+            <label for="categorias de interes">Electro</label>
+            <input type="checkbox" name="categorias de interes">
+            <label for="categorias de interes">Moda</label>
+            <input type="checkbox" name="categorias de interes">
+            <label for="categorias de interes">Hogar</label>
+            <input type="checkbox" name="categorias de interes">
+            <label for="categorias de interes">Jugueteria</label>
+            <input type="checkbox" name="categorias de interes">
+            <label for="categorias de interes">Vida Sana</label>
+            <input type="checkbox" name="categorias de interes">
+        </div>
+        <h3>Foto de Usuario</h3>
+        <label for="Foto">Seleccionar una Imagen de perfil:</label>
+        <input type="file" name="Imagen de Perfil" id="Foto" accept=".jpg,.jpn">
+        <h3>Password</h3>
+        <div class="password">
+            <p>
+                <input type="password" name="contraseña" placeholder="Contraseña">
+            </p>
+            <p>
+                <input type="password" name="contraseña" placeholder="Confirmar contraseña">
+            </p>
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+            <p>
+                <button type="reset">Borrar</button>
+            </p>
+        </div>
+
+
+
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>

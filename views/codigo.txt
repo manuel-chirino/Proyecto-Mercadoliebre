@@ -1,0 +1,62 @@
+codigo de barra de busqueda
+<div><input id="buscar" class="buscar" placeholder="Buscar productos,marcas"></div>
+ <div id="panel" class="panel"></div>
+ <i class="fas fa-search"></i>
+ @media (min-width:480px){
+    .site-login{
+        display: block;
+    }
+    .site-login a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+
+main section article i{
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media (min-width:769px){
+    #menu{
+        display: none;
+    }
+}
+.buscador{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%
+     }
+
+
+
+       <form action="/views/login.html" method="get">
+        <div>
+            <label for="Nombre">Nombre y Apellido</label>
+            <input type="text" name="usuario" id="Nombre">
+            <label for="Usuario"> Nombre de usuari@</label>
+            <input type="text" name="usuario" id="Usuario">
+
+        </div>
+        <div>
+            <label for=""
+        </div>
+       
+    </form>
+     <label for="Nombre">Nombre y apellido</label>
+        <input type="text" name="Nombre" id"Nombre">

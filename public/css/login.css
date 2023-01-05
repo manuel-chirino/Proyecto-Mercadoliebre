@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:#EAC926 ;
+    padding: 20px;
+}
+.logo{
+    width: 50%;
+}
+.site-login ul {
+    list-style: none;
+
+}
+.site-login a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 17px;
+}
+
+main{
+    text-align: center;
+    background-color: #ebebeb;
+
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.detalles input{
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.detalles button{
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color:gray;
+    color: white;
+    border: none;
+    outline: none;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+#iconos{
+    font-size: 2em;
+    color:#03264C;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.detalles:hover button{
+    background-color:#0022AA;
+}
+@media(min-width:461px){
+    
+    .site-login{
+        display: none;
+    }
+
+}
+@media(min-width:769px){
+    .site-login{
+        display: block;
+    }
+    .site-login{
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul li {
+        margin: 8px;
+    }
+    .servicios{
+        display: flex;
+       }
+       .end{
+        padding: 10px;
+        text-align: left;
+       }
+       .detalles:hover #iconos{
+        color: green;
+       }
+}

@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #ebebeb;
+}
+header{
+    background-color:#EAC926;
+    padding: 20px;
+  
+}
+.main-header-top-bar{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 7%;
+    height: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 50%;
+}
+
+.copy-header{
+    font-weight: 400px;
+    text-align: center;
+}
+.site-login{
+    display: none;
+}
+.site-login ul{
+    list-style: none;
+    
+}
+.site-login a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 17px;
+
+
+}
+ 
+main{
+    width: 90%;
+    margin: auto;
+   
+}
+   
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.titulares{
+    font-size: 24px;
+    font-weight: bold;
+}
+.precio{
+    font-size: 18px;
+    color:#39b54a;
+    width: 30%;
+     
+}
+.descuento{
+    font-size: 16px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    
+}
+.descripcion{
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+#menu{
+  background-color: blue;
+  width: 40px;
+  border-radius:5px;
+  font-size: 20px;
+  height: 40px;
+  padding: 10px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+#iconos{ 
+    font-size: 2em;
+    color:#03264C;
+    margin-bottom: 10px;
+    padding-top: 20px;
+ }
+
+.imagen-producto{
+    width: 100%;
+    
+}
+main section article{
+    background-color: #fff;
+    margin: 10px 0;
+    
+}
+.detalle-producto{
+    position: relative;
+}
+#envio{
+    display: block;
+    font-size: 16px;
+    color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid 1px green;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    background-color: #fff;
+   
+   
+}
+
+
+.detalle-producto{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media (min-width:461px){
+.descripcion{
+    display: block;
+}
+main section article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 45%;
+}
+.site-login{
+    display: none;
+}
+ }
+
+@media (min-width:769px){
+    #menu{
+        display: none;
+    }
+    .site-login{
+        display: block;
+    }
+    .productos article{
+        width: 20%; 
+
+    }
+    .descuento {
+        font-size: 16px;
+        width: 70%;
+        
+    }
+    .precio{
+        width: 30%;
+
+    }
+    .site-login{
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul li {
+        margin: 8px;
+    }
+   article .descripcion{
+    display: none;
+   }
+   article:hover .descripcion{
+    display: block;
+   }
+   article #envio{
+    transition: rotate 300ms;
+   }
+   article:hover #envio{ 
+    rotate: -100grad;
+   }
+   article:hover{
+    box-shadow: 30px 30px 80px rgb(100, 100, 100);
+   }
+   .servicios{
+    display: flex;
+   }
+   .end{
+    padding: 10px;
+    text-align: left;
+   }
+   .detalles:hover #iconos{
+    color: green;
+   }
+ }
